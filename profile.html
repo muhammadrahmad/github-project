@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            font-family: Arial, sans-serif;
+        }
+        .profile-card {
+            width: 500px;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .profile-card img {
+            width: 100%; 
+            max-height: 300px; 
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .profile-card h2 {
+            margin: 10px 0;
+            font-size: 22px;
+        }
+        .profile-card p {
+            font-size: 14px;
+            margin: 5px 0;
+            opacity: 0.9;
+        }
+        .social-icons {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #4ca1af;
+        }
+        .contact-info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="img/fotoku.jpeg" alt="Muhammad Rahmad">
+        <h2>Muhammad Rahmad</h2>
+        <p>IT Enthusiast | Graphic Designer | Educator at SDIT An Nahl</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/muhmmdrahmad_08" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/6283867412545" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:muhammadrahmad12tkj@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="contact-info">
+            <p><i class="fas fa-user"></i> @muhmmdrahmad_08</p>
+            <p><i class="fas fa-phone"></i> +62 838-6741-2545</p>
+            <p><i class="fas fa-envelope"></i> muhammadrahmad12tkj@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
